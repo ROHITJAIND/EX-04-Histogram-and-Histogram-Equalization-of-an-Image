@@ -28,7 +28,7 @@ plt.imshow(gimg)
 plt.show()
 ```
 - Output:
-<img height=40% width=50% src="https://github.com/ROHITJAIND/HISTOGRAM/assets/118707073/d33379b7-6420-459f-86d1-8b6e44fbae1e">
+<img height=30% width=50% src="https://github.com/ROHITJAIND/HISTOGRAM/assets/118707073/d33379b7-6420-459f-86d1-8b6e44fbae1e">
 
 #### Histogram of Gray scale image and one channel histogram from color image
 ```
@@ -55,7 +55,7 @@ plt.stem(color_hist)
 plt.show()
 ```
 - Output:
-<img height=40% width=50% src="https://github.com/ROHITJAIND/HISTOGRAM/assets/118707073/351a0a7b-2e94-49c2-b89c-50ed5e96878f">
+<img height=30% width=50% src="https://github.com/ROHITJAIND/HISTOGRAM/assets/118707073/351a0a7b-2e94-49c2-b89c-50ed5e96878f">
 
 #### Histogram equalization of the Image 
 ```
