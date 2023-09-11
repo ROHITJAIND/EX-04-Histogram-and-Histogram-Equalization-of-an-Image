@@ -18,8 +18,10 @@ Register Number: 212222230120
 ```
 import cv2
 import matplotlib.pyplot as plt
+
 cimg=cv2.imread('blue.jpg')
 gimg=cv2.imread('gray.jpg')
+
 plt.imshow(cimg)
 plt.show()
 plt.imshow(gimg)
@@ -32,6 +34,7 @@ plt.show()
 ```
 import cv2
 import matplotlib.pyplot as plt
+
 cimg=cv2.imread('blue.jpg')
 gimg=cv2.imread('gray.jpg')
 
@@ -59,9 +62,12 @@ plt.show()
 import cv2
 gimg=cv2.imread('gray.jpg',0)
 gimg=cv2.resize(gimg,(300,200))
+
 equ = cv2.equalizeHist(gimg)
+
 cv2.imshow('Gray Image',gimg)
 cv2.imshow('Equalized Image',equ)
+
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
