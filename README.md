@@ -1,19 +1,16 @@
 # EX-4 Histogram and Histogram Equalization of an Image
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**DATE:** 05.09.2023
 ### Aim:
 To obtain a histogram for finding the frequency of pixels in an Image with pixel values ranging from 0 to 255. Also write the code using OpenCV to perform histogram equalization.
 ### Software Required:
 - Anaconda - Python 3.7
 ### Algorithm:
-- Step1: Import cv2 and matplotlib.pyplot.
-- Step2: Read and display the input images.
+- Step1: Import cv2 and matplotlib.pyplot.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Developed By: ROHIT JAIN D
+- Step2: Read and display the input images.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Register Number: 212222230120
 - Step3: Calculate the Histogram Values using calcHist().
 - Step4: Display the histograms.
 - Step5: Calculate and display the equalized image using equalizeHist().
 ### Program:
-```
-Developed By: ROHIT JAIN D
-Register Number: 212222230120
-```
 <table>
   <tr>
     <td width=50%>
